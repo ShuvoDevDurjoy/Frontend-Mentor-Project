@@ -56,6 +56,16 @@ p{
 
 }
 
+#buttongroup{
+    display: flex ;
+    flex-direction: column ; ;
+}
+
+button:hover{
+    background-color : hsl(75,94%,57%);
+    color : hsl(0,0%,8%);
+}
+
 #image {
     width : 30%;
     border-radius : 50% ; 
